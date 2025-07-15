@@ -18,3 +18,7 @@ let height; // height is declared but not assigned any value
 // null -> empty value
 // undefined -> variable is declared but not assigned any value
 // symbol -> unique and immutable value, often used as object property keys
+
+// object -> collection of key-value pairs
+
+console.log(typeof "Trishna Paswan"); // string 
