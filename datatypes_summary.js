@@ -19,6 +19,7 @@ const bigIntValue = 1234567890123456789012345678901234567890n // large integer
 // 1 type: object (including arrays, functions, etc.)
 
 const heros = ["Shaktimaan", "Superman", "Batman"];
+
 let myObject = {
     name: "Trishna Paswan",
     age: 19,
@@ -30,3 +31,6 @@ const greet = function() {
 }
 
 console.log(typeof bigIntValue); // bigint
+console.log(typeof greet); // function
+console.log(typeof heros); // object (arrays are a type of object)
+console.log(typeof myObject); // object
