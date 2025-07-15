@@ -22,3 +22,6 @@ let height; // height is declared but not assigned any value
 // object -> collection of key-value pairs
 
 console.log(typeof "Trishna Paswan"); // string 
+console.log(typeof 19); // number
+console.log(typeof null); // object (null is a special case in JavaScript)
+console.log(typeof undefined); // undefined
