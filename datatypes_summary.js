@@ -12,6 +12,21 @@ const anotherId = Symbol('123'); // different symbol, even with same description
 
 console.log(id === anotherId); // false, symbols are unique
 
+const bigIntValue = 1234567890123456789012345678901234567890n // large integer
+
 
 // Non-primitive data types - Call by reference
 // 1 type: object (including arrays, functions, etc.)
+
+const heros = ["Shaktimaan", "Superman", "Batman"];
+let myObject = {
+    name: "Trishna Paswan",
+    age: 19,
+
+}
+
+const greet = function() {
+    console.log("Hello");
+}
+
+console.log(typeof bigIntValue); // bigint
