@@ -56,7 +56,7 @@ let num1, num2, num3;
 num1 = num2 = num3 = 5; // Not recommended, but valid
 
 let gameCount = 100;
-gameCount++; // Increment operator
-++gameCount; // Another way to increment
+gameCount++; // prefix increment
+++gameCount; // postfix increment
 console.log(gameCount); // 101
 
