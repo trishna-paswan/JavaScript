@@ -17,3 +17,7 @@ console.log(null < 0); // false (null is not less than 0)
 console.log(undefined == 0); // false (undefined is not equal to 0)
 console.log(undefined >= 0); // false (undefined is not greater than or equal to 0)
 console.log(undefined < 0); // false (undefined is not less than 0)
+
+// Strict equality checks
+console.log(2 === 2); // true (strict equality)
+console.log(2 === "2"); // false (strict equality, different types)
