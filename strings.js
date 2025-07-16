@@ -30,3 +30,5 @@ console.log(newStringtwo);
 
 const url = "https://www.google%20com";
 console.log(url.replace("%20", ".")); // https://www.google.com
+
+console.log(url.includes("google")); // true
