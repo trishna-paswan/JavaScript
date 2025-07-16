@@ -32,3 +32,6 @@ const url = "https://www.google%20com";
 console.log(url.replace("%20", ".")); // https://www.google.com
 
 console.log(url.includes("google")); // true
+
+console.log(gameName.split(" ")); // [ 'Counter', 'Strike' ]
+console.log(gameName.split("")); // [ 'C', 'o', 'u', 'n', 't', 'e', 'r', ' ', 'S', 't', 'r', 'i', 'k', 'e' ]
