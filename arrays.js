@@ -23,3 +23,6 @@ console.log("Array after removing first element:", myArr);
 const subArr = myArr.slice(1, 3);
 console.log("Sub-array from index 1 to 3:", subArr);
 
+//Splice the array to remove elements
+myArr.splice(1, 2); // Remove 2 elements starting from index 1
+console.log("Array after splicing from index 1, removing 2 elements:", myArr);
