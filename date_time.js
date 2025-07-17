@@ -11,5 +11,6 @@ console.log("My Date:", myDate.toDateString());
 let anotherDate = new Date("2023-01-23");
 console.log("Another Date:", anotherDate.toLocaleString());
 
-// Get the current date
-const currentYear = currentDate.getFullYear();
+let myTimeStamp = Date.now();
+console.log("Current Timestamp:", myTimeStamp);
+
