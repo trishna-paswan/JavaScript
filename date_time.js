@@ -14,3 +14,4 @@ console.log("Another Date:", anotherDate.toLocaleString());
 let myTimeStamp = Date.now();
 console.log("Current Timestamp:", myTimeStamp);
 
+console.log(Math.floor(myTimeStamp / 1000), "seconds since January 1, 1970");
