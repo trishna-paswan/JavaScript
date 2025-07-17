@@ -15,3 +15,6 @@ let myTimeStamp = Date.now();
 console.log("Current Timestamp:", myTimeStamp);
 
 console.log(Math.floor(myTimeStamp / 1000), "seconds since January 1, 1970");
+
+console.log("Current Year:", currentDate.getFullYear());
+console.log("Current Month:", currentDate.getMonth() + 1); // Months are zero-based
