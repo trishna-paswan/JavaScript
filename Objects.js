@@ -20,5 +20,15 @@ console.log(myObjects[Sym]); // Output: Paswan
 Object.age = 26; // Updating age
 console.log(myObjects.age); // Output: 26
 
-Object.freeze(myObjects); // Freezing the object to prevent further modifications
-console.log(myObjects);
+// Object.freeze(myObjects); // Freezing the object to prevent further modifications
+// console.log(myObjects);
+
+// Function to greet 
+
+myObjects.greet = function() {
+    console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+}
+myObjects.greet(); // Output: Hello, my name is Trishna and I am 26 years old.
+
+// Function 
+console.log(myObjects.greet); // Output: [Function: greet]
