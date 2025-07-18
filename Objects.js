@@ -76,3 +76,7 @@ users[1].age
 console.log(Object.keys(users)); // Output: [ 'name', 'age' ]
 console.log(Object.values(users)); // Output: [ { name: 'Trishna', age: 25 }, { name: 'John', age: 30 }, { name: 'Jane', age: 28 } ]
 console.log(Object.entries(users)); // Output: [ [ 'name', 'Trishna' ], [ 'age', 25 ], ... ]
+
+console.log(tinderUser.hasOwnProperty("name")); // Output: true
+console.log(tinderUser.hasOwnProperty("email")); // Output: false
+
