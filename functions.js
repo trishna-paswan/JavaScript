@@ -42,3 +42,8 @@ function calculateCartPrice(...items) { // rest parameter
 }
 
 console.log(calculateCartPrice(100, 200, 300)); // Output: [ 100, 200, 300 ]
+
+function calculateTotalPrice(val1, val2, ...prices) {
+    return prices
+}
+console.log(calculateTotalPrice(100, 200, 300, 400)); // Output: [ 300, 400 ]
