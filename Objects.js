@@ -59,3 +59,19 @@ const regular = {
 console.log(regular.fullname.user.first); // Output: Trishna
 console.log(regular.fullname);
 
+const obj = {1: "one", 2: "two", 3: "three"};
+const obj2 = {3: "one", 4: "two", 5: "three"};
+
+// Merging two objects using Object.assign
+const mergedObj = Object.assign({}, obj, obj2);
+console.log(mergedObj); // Output: { '1': 'one', '2': 'two', '3': 'one', '4': 'two', '5': 'three' }
+
+const users = [
+    { name: "Trishna", age: 25 },
+    { name: "John", age: 30 },
+    { name: "Jane", age: 28 }
+]
+
+users[1].age
+console.log(Object.keys(users)); // Output: [ 'name', 'age' ]
+console.log(Object.values(users)); // Output: [ { name: 'Trishna', age: 25 }, { name: 'John', age: 30 }, { name: 'Jane', age: 28 } ]
