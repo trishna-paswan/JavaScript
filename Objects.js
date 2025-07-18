@@ -32,3 +32,30 @@ myObjects.greet(); // Output: Hello, my name is Trishna and I am 26 years old.
 
 // Function 
 console.log(myObjects.greet); // Output: [Function: greet]
+
+// Constrctor Object
+
+// const tinderUser = new Object(); // Singleton object creation
+
+const tinderUser = {} // Non Singleton object creation
+
+// Adding properties to the tinder object
+tinderUser.name = "Tinder";
+tinderUser.age = 10;
+tinderUser.isActive = true;
+
+console.log(tinderUser); 
+
+const regular = {
+    email: "some@gmail.com",
+    fullname: {
+        user: {
+            first: "Trishna",
+            last: "Paswan"
+        }
+    }
+}
+
+console.log(regular.fullname.user.first); // Output: Trishna
+console.log(regular.fullname);
+
