@@ -12,3 +12,11 @@ console.log(title); // Output: JavaScript Basics
 
 const {isAvailable: avail} = course; // Renaming destructured property
 console.log(avail); // Output: true
+
+// JSON (JavaScript Object Notation) is a format for structuring data
+{
+    name : "Trishna Paswan",
+    age: 19,
+    isStudent: true,
+    subjects: ["Math", "Science", "English"],
+}
