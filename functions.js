@@ -35,3 +35,10 @@ function User(username) {
 }
 
 console.log(User()); // Output: Username is required
+
+// the no of parameters is not fixed
+function calculateCartPrice(...items) { // rest parameter
+    return items
+}
+
+console.log(calculateCartPrice(100, 200, 300)); // Output: [ 100, 200, 300 ]
