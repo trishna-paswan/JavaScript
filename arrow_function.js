@@ -31,10 +31,10 @@ function chai() {
 chai(); // Output: global object (in browser, it's window; in Node.js, it's global)
 
 // Example of an arrow function
-const chai = (num1, num2) => {
+const chai1 = (num1, num2) => {
     return num1 + num2;
 }
-console.log(chai(10, 20)); // Output: 30
+console.log(chai1(10, 20)); // Output: 30
     
 // Example of an arrow function with implicit return
 const chai2 = (num1, num2) => num1 + num2;
