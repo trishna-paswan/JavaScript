@@ -16,3 +16,15 @@ if (true) {
 }
 
 console.log(a, b, c); // Output: 10 20 60
+
+// --.--.--.---.--- Interesting part --.--.--.--
+
+function addone(num) {
+    return num + 1;
+}
+console.log(addone(10)); // Output: 11
+
+const addtwo = function(num) {
+    return num + 2;
+}
+addtwo(10); // Output: 12
