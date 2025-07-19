@@ -63,3 +63,12 @@ val1 = val1 ?? "Default Value"; // Output: "Default Value"
 
 // If val1 is null or undefined, it will be assigned "Default Value"
 console.log(val1);
+
+// Ternary operator example
+const age = 18;
+const isAdult = age >= 18 ? "Adult" : "Minor";
+console.log(isAdult); // Output: "Adult"
+
+const isLoggedIn = true;
+const message = isLoggedIn ? "Welcome back!" : "Please log in.";
+console.log(message); // Output: "Welcome back!"
