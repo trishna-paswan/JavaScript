@@ -36,3 +36,14 @@ const chai = (num1, num2) => {
 }
 console.log(chai(10, 20)); // Output: 30
     
+// Example of an arrow function with implicit return
+const chai2 = (num1, num2) => num1 + num2;
+console.log(chai2(10, 20)); // Output: 30
+
+// Example of an arrow function returning an object
+const chai3 = (num1, num2) => ({username: "hitesh", price: 199});
+console.log(chai3(10, 20)); // Output: { username: 'hitesh', price: 199 }
+
+// Example of an arrow function without a return statement
+const chai4 = (num1, num2) => { num1 + num2 }
+console.log(chai4(10, 20)); // Output: undefined (because there's no return statement)
