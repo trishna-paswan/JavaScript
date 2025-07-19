@@ -19,6 +19,7 @@ console.log(a, b, c); // Output: 10 20 60
 
 // --.--.--.---.--- Interesting part --.--.--.--
 
+// Function declarations and expressions
 function addone(num) {
     return num + 1;
 }
