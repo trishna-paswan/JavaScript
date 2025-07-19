@@ -27,4 +27,4 @@ console.log(addone(10)); // Output: 11
 const addtwo = function(num) {
     return num + 2;
 }
-addtwo(10); // Output: 12
+console.log(addtwo(10)); // Output: 12
