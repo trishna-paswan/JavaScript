@@ -23,3 +23,9 @@ const user2 = {
     }   
 };
 console.log(this); // Output: global object (in browser, it's window; in Node.js, it's global)
+
+function chai() {
+    console.log(this); // Output: global object (in browser, it's window; in Node.js, it's global)");
+    
+}
+chai(); // Output: global object (in browser, it's window; in Node.js, it's global)
