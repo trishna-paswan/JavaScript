@@ -31,4 +31,26 @@ const numbers = [1, 2, 3, 4, 5];
 numbers.forEach((num, index) => {
     console.log(`Index: ${index}, Number: ${num}`);
 });
- 
+
+// while loop example
+let count = 0;
+while (count < 5) {
+    console.log("Count is:", count);
+    count++;
+}
+
+// do-while loop example
+let index = 0;
+do {
+    console.log("Index is:", index);
+    index++;
+}
+while (index < 5);
+
+// array while loop example
+const fruits = ["apple", "banana", "cherry"];
+let fruitIndex = 0;
+while (fruitIndex < fruits.length) {
+    console.log("Fruit:", fruits[fruitIndex]);
+    fruitIndex++;
+}
