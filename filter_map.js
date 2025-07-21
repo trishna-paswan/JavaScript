@@ -13,7 +13,7 @@ myNums.forEach(num => {
 });
 console.log("Odd Numbers:", oddNums);
 
-// Using filters 
+// Using filters with conditions
 const books = [
     { title: "Book A", author: "Author 1", year: 2020 },
     { title: "Book B", author: "Author 2", year: 2019 },
