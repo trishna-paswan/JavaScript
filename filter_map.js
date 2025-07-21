@@ -30,3 +30,8 @@ console.log("Books by Author 1:", userBooks); // Output: Books by Author 1: [ { 
 const nums = [1, 2, 3, 4, 5];
 const newNums = nums.map(num => num + 10);
 console.log("New Numbers:", newNums); // Output: New Numbers: [11, 12, 13, 14, 15]
+
+
+// Using map to transform numbers with multiple operations
+const newNum = nums.map(num => num * 2).map(num => num + 5);
+console.log("New Numbers after multiple maps:", newNum); // Output: New Numbers after multiple maps: [7, 9, 11, 13, 15]
