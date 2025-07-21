@@ -108,3 +108,12 @@ myCode.forEach(function (code) {
     console.log(`ID: ${code.id}, Language: ${code.language}`); // Output: ID: 1, Language: JavaScript, ID: 2, Language: Python, ID: 3, Language: Java
 });
 
+// Using forEach to iterate over an array of programming languages
+const coding = ["JavaScript", "Python", "Java"]
+
+const values = coding.forEach( (item) => {
+    console.log("Programming Language:", item); // Output: Programming Language: JavaScript, Python, Java
+    return item; // This return value is ignored by forEach
+})
+
+console.log("Values:", values); // Output: Values: undefined (forEach does not return a value)
