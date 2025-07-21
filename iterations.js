@@ -12,6 +12,7 @@ for (let i = 0; i < 10; i++) {
     }
     console.log("Current number:", i);
 }
+
 // Continue statement example
 for (let i = 0; i < 10; i++) {
     if (i % 2 === 0) {
@@ -20,12 +21,14 @@ for (let i = 0; i < 10; i++) {
     }
     console.log("Current odd number:", i);
 }
+
 // Nested loops example
 for (let i = 0; i < 3; i++) {
     for (let j = 0; j < 2; j++) {
         console.log(`Outer loop ${i}, Inner loop ${j}`);
     }
 }
+
 // array iteration using forEach
 const numbers = [1, 2, 3, 4, 5];
 numbers.forEach((num, index) => {
@@ -54,3 +57,31 @@ while (fruitIndex < fruits.length) {
     console.log("Fruit:", fruits[fruitIndex]);
     fruitIndex++;
 }
+
+// Using for...of loop to iterate over an array
+const colors = ["red", "green", "blue"];
+for (const color of colors) {
+    console.log("Color:", color); // Output: Color: red, Color: green, Color: blue
+}
+
+// Using for...in loop to iterate over an object
+const person = { name: "Alice", age: 30, city: "New York" };
+for (const key in person) {
+    console.log(`${key}: ${person[key]}`); // Output: name: Alice, age: 30, city: New York
+}
+
+// Using for...in loop to iterate over an array (not recommended, but possible)
+const arr = [10, 20, 30];
+for (const index in arr) {
+    console.log(`Index: ${index}, Value: ${arr[index]}`);
+}
+
+// Maps
+const map = new Map();
+map.set("name", "John");
+map.set("age", 25);
+map.set("city", "New York");
+map.forEach((value, key) => {
+    console.log(`${key}: ${value}`);
+});
+
