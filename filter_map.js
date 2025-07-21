@@ -24,3 +24,9 @@ const books = [
 ];
 const userBooks = books.filter(book => book.author === "Author 1");
 console.log("Books by Author 1:", userBooks); // Output: Books by Author 1: [ { title: 'Book A', author: 'Author 1', year: 2020 }, { title: 'Book D', author: 'Author 1', year: 2018 } ]
+
+// adding new numbers using map
+
+const nums = [1, 2, 3, 4, 5];
+const newNums = nums.map(num => num + 10);
+console.log("New Numbers:", newNums); // Output: New Numbers: [11, 12, 13, 14, 15]
