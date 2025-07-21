@@ -12,3 +12,15 @@ myNums.forEach(num => {
     }
 });
 console.log("Odd Numbers:", oddNums);
+
+// 
+const books = [
+    { title: "Book A", author: "Author 1", year: 2020 },
+    { title: "Book B", author: "Author 2", year: 2019 },
+    { title: "Book C", author: "Author 3", year: 2021 },
+    { title: "Book D", author: "Author 1", year: 2018 },
+    { title: "Book E", author: "Author 5", year: 2022 },
+    { title: "Book F", author: "Author 2", year: 2023 }
+];
+const userBooks = books.filter(book => book.author === "Author 1");
+console.log("Books by Author 1:", userBooks);
