@@ -85,3 +85,26 @@ map.forEach((value, key) => {
     console.log(`${key}: ${value}`);
 });
 
+// Using forEach to iterate over an array
+const codingLanguages = ["JavaScript", "Python", "Java"];
+codingLanguages.forEach((language, index) => {
+    console.log(`Language ${index + 1}: ${language}`); // Output: Language 1: JavaScript, Language 2: Python, Language 3: Java
+}); 
+
+const numbersArray = [10, 20, 30, 40];
+numbersArray.forEach(function (val){
+    console.log("Value:", val); // Output: Value: 10, Value: 20, Value: 30, Value: 40
+});
+
+const myCode = [
+    { 
+        id: 1,
+        language: "JavaScript" 
+    },
+    { id: 2, language: "Python" },
+    { id: 3, language: "Java" }
+]
+myCode.forEach(function (code) {
+    console.log(`ID: ${code.id}, Language: ${code.language}`); // Output: ID: 1, Language: JavaScript, ID: 2, Language: Python, ID: 3, Language: Java
+});
+
