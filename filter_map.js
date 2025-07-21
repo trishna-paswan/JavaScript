@@ -23,4 +23,4 @@ const books = [
     { title: "Book F", author: "Author 2", year: 2023 }
 ];
 const userBooks = books.filter(book => book.author === "Author 1");
-console.log("Books by Author 1:", userBooks);
+console.log("Books by Author 1:", userBooks); // Output: Books by Author 1: [ { title: 'Book A', author: 'Author 1', year: 2020 }, { title: 'Book D', author: 'Author 1', year: 2018 } ]
